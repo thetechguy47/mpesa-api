@@ -86,5 +86,5 @@ O pacote `thetechguy/mpesa-api` já traz exemplos práticos na pasta `vendor/the
 - `b2c.php` — exemplo de Business-to-Customer
 - `c2b.php` — exemplo de Customer-to-Business 
 
-composer require thetechguy/mpesa-api
+composer require thetechguy47/mpesa-api
 ```
