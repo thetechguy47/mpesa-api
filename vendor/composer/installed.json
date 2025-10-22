@@ -1,0 +1,29 @@
+{
+    "name": "thetechguy/mpesa-api",
+    "description": "API em PHP para M-PESA (Moçambique) — desenvolvida por Vicente Chauque (The Tech Guy)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vicente Chauque",
+            "email": "contacto@vchauque47.com",
+            "homepage": "https://www.vchauque47.com",
+            "role": "Developer",
+            "devname": "The Tech Guy"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "thetechguy\\": "src/"
+        }
+    },
+    "support": {
+        "website": "https://www.vchauque47.com",
+        "email": "contacto@vchauque47.com",
+        "issues": "https://github.com/thetechguy/mpesa-api/issues",
+        "source": "https://github.com/thetechguy/mpesa-api"
+    }
+}

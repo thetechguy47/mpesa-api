@@ -1,0 +1,19 @@
+{
+    "name": "thetechguy/mpesa-api",
+    "description": "API em PHP para M-PESA (Mo\u0000ambique)",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Vicente Chauque",
+            "email": "contacto@vchauque47.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "thetechguy\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+}

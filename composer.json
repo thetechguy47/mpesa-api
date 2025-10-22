@@ -1,0 +1,35 @@
+{
+  "name": "thetechguy/mpesa-api",
+  "type": "library",
+  "description": "Biblioteca PHP para integração com a API M-Pesa (C2B, B2C e B2B).",
+  "keywords": ["mpesa", "pagamentos", "api", "moçambique", "thetechguy", "vodacom"],
+  "homepage": "https://www.vchauque47.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vicente Chauque",
+      "email": "contacto@vchauque47.com",
+      "homepage": "https://www.vchauque47.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "TheTechGuy\\Mpesa\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "support": {
+    "issues": "https://www.vchauque47.com/contacto.php",
+    "source": "https://github.com/thetechguy/mpesa-api"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.0.x-dev"
+    }
+  }
+}
